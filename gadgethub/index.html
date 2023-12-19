@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GadgetHub Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  media="screen and (max-width:800px)"  href="tablet.css">
+    <link rel="stylesheet"  media="screen and (max-width:530px)"  href="phone.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gadgets">Gadget</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+<div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="button" onclick="validateForm()">Login</button>
+    </form>
+</div>
+
+    <section id="home">
+            <div class="main">
+               <h1 class="headings">GadgetHUb <br>TechStuff</h1>
+            </div>
+    </section>
+    <section id="about">
+        <h1 class="headings">About Gadgets</h1>
+        <div id="pic">
+            <img src="img/img1.jpeg.jpg" alt="">
+            <div id="intro">
+                <h2>GadgetHub</h2>
+                <p>Welcome to our tech haven, where innovation meets everyday life in the most exciting ways. At GadgetHub, we're not just enthusiasts; we're storytellers of the digital age, navigating the ever-evolving landscape of gadgets with passion and purpose. Our mission is to unravel the complexities of technology and bring you closer to the extraordinary experiences it offers. Whether you're a seasoned tech wizard or just embarking on your digital journey, our curated collection of gadgets, insightful reviews, and expert guides are here to empower and inspire. Join us in exploring the cutting edge, as we bridge the gap between the present and the future, one gadget at a time. Welcome to a world where curiosity sparks innovation, and the possibilities are limitless. This is GadgetHub your gateway to the extraordinary world of gadgets.</p>  
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h1 class="headings">Gadgets</h1>
+        <div class="row">
+            <div class="box">
+                <img src="img/img7.jpg" alt="Androids">
+                <h1 class="headings">Androids</h1>
+                <p>Welcome to GadgetHub, your tech haven for all things Android! Unleash innovation with cutting-edge updates, app tips, and curated insights. For tech enthusiasts and beginners alike, GadgetHub is your guide in the Android Odyssey!</p>
+            </div>
+            <div class="box">
+                <img src="img/laptop.jpg" alt="laptop">
+                <h1 class="headings">Laptop</h1>
+              <p>"Explore the world of iPhones, where cutting-edge technology meets sleek design. Discover the latest models, from the powerful iPhone 13 Pro to the compact iPhone SE. Dive into a realm of innovation with advanced cameras, high-performance processors, and stunning displays. Stay updated on iOS features and app trends, unlocking the full potential of your device. </p> 
+            </div>
+            <div class="box">
+                <img src="img/img4.png" alt="">
+                <h1 class="headings">iPhone</h1>
+                <p>Enter the realm of Apple's iconic devices with GadgetHub, where we unveil the enchantment of the latest iPhone models, setting new standards for excellence. Explore tailored insights, reviews, and tips to stay at the forefront of the ever-evolving iPhone scene. Whether you're passionate about photography, a productivity expert, or a tech influencer, GadgetHub expertly navigates you through captivating features and state-of-the-art technology.</p>
+            </div>
+        </div>
+    </section> 
+
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="img/img3.jpeg" alt="">
+                <h1 class="headings">Android Phones</h1>
+                <p> Step into GadgetHub, your ultimate tech sanctuary for everything Android! Dive into the world of innovation with the latest updates, app recommendations, and carefully curated insights. Whether you're a seasoned tech enthusiast or just starting your digital journey, GadgetHub serves as your expert guide in navigating the thrilling Android Odyssey!</p>
+            </div>
+            <div class="box">
+                <img src="img/img4.png" alt="">
+                <h1 class="headings">iPhones</h1>
+                <p>Step into the world of Apple's iconic devices at GadgetHub, where we reveal the magic of the latest iPhone models that redefine excellence. Delve into curated insights, reviews, and tips to stay ahead in the ever-evolving iPhone landscape. Whether you're a photography enthusiast, productivity pro, or tech trendsetter, GadgetHub guides you through enchanting features and cutting-edge technology. Experience the seamless fusion of form and function, exclusively at GadgetHub.</p>
+            </div>
+            <div class="box">
+                <img src="img/img5.jpg" alt="">
+                <h1 class="headings">Airbuds</h1>
+                <p>Welcome to GadgetHub, your audio oasis! Dive into a world of immersive sound with our curated collection of earbuds. Discover cutting-edge models that redefine audio excellence, offering seamless connectivity and superior performance. Whether you seek premium sound quality for music or enhanced call clarity, GadgetHub guides you to the perfect pair.</p>            </div>
+            </div>
+        </div>
+    </section> 
+    <section id="contact">
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
